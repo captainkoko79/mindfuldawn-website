@@ -1,35 +1,152 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <title>Mindful Dawn - Daily Buddhist Wisdom</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-        body { 
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-            max-width: 600px;
-            margin: 80px auto;
-            padding: 20px;
-            text-align: center;
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Georgia, sans-serif;
+            background: #FAF6EF;
+            color: #2C2520;
+            line-height: 1.7;
         }
-        h1 { color: #2C2520; }
+        header {
+            background: #2C2520;
+            color: #FAF6EF;
+            text-align: center;
+            padding: 48px 20px 40px;
+        }
+        header h1 { font-size: 2rem; letter-spacing: 0.05em; margin-bottom: 8px; }
+        header p { opacity: 0.75; font-size: 1rem; }
+        .container { max-width: 680px; margin: 0 auto; padding: 48px 24px; }
         .download-btn {
             display: inline-block;
             background: #C47A4A;
             color: white;
-            padding: 12px 24px;
-            border-radius: 8px;
+            padding: 14px 32px;
+            border-radius: 10px;
             text-decoration: none;
-            margin-top: 20px;
+            font-weight: 600;
+            letter-spacing: 0.03em;
+            margin-top: 24px;
+        }
+        .download-btn:hover { background: #A8613A; }
+        section { margin-bottom: 48px; }
+        h2 {
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: #C47A4A;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #E5D9C8;
+        }
+        p { margin-bottom: 12px; }
+        .faq-item { margin-bottom: 24px; }
+        .faq-item strong { display: block; margin-bottom: 6px; }
+        .contact-box {
+            background: #F0E9DC;
+            border: 1px solid #E5D9C8;
+            border-radius: 12px;
+            padding: 24px;
+            text-align: center;
+        }
+        .contact-box a { color: #C47A4A; text-decoration: none; font-weight: 600; }
+        .contact-box a:hover { text-decoration: underline; }
+        footer {
+            text-align: center;
+            padding: 32px 20px;
+            color: #8A7A6A;
+            font-size: 0.875rem;
+            border-top: 1px solid #E5D9C8;
         }
     </style>
 </head>
 <body>
+
+<header>
     <h1>🌅 Mindful Dawn</h1>
-    <p>Daily Buddhist wisdom and contemplative practice.</p>
-    <p>Experience the Dhammapada with contemporary sacred minimalism design.</p>
-    <a href="https://apps.apple.com/vn/app/mindful-dawn/id6749192047" class="download-btn">
-        Download on App Store
+    <p>Daily Dhammapada wisdom for a more intentional life</p>
+    <a href="https://apps.apple.com/us/app/mindful-dawn/id6749192047" class="download-btn">
+        Download on the App Store
     </a>
+</header>
+
+<div class="container">
+
+    <section>
+        <h2>About the App</h2>
+        <p>Mindful Dawn delivers one verse from the Dhammapada each day — the ancient Buddhist text of 423 wisdom teachings — paired with a contemplative practice to carry into your day.</p>
+        <p>Available in English and Vietnamese. Free to download, supported by unobtrusive ads.</p>
+    </section>
+
+    <section>
+        <h2>Support &amp; Contact</h2>
+        <div class="contact-box">
+            <p>Have a question, bug report, or feedback? We'd love to hear from you.</p>
+            <p style="margin-top:16px;">
+                Email us at<br>
+                <a href="mailto:support@mindful-dawn.com">support@mindful-dawn.com</a>
+            </p>
+            <p style="margin-top:8px; font-size:0.9rem; color:#8A7A6A;">
+                We typically respond within 1–2 business days.
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq-item">
+            <strong>How does the daily verse system work?</strong>
+            A new verse unlocks each day, giving you one teaching to sit with and practice — rather than consuming many at once. You can also browse the full library of all 423 Dhammapada verses.
+        </div>
+
+        <div class="faq-item">
+            <strong>Which languages are supported?</strong>
+            The app is available in English and Vietnamese. You can switch languages at any time in Settings.
+        </div>
+
+        <div class="faq-item">
+            <strong>How do I turn on or adjust daily notifications?</strong>
+            Open Settings (gear icon) → toggle Daily Reminders on → tap the time to choose your preferred reminder time.
+        </div>
+
+        <div class="faq-item">
+            <strong>Is the app free?</strong>
+            Yes. Mindful Dawn is free to download and use. The app is supported by ads.
+        </div>
+
+        <div class="faq-item">
+            <strong>How do I share a verse?</strong>
+            Tap the share icon on any verse page to generate a beautiful image card you can post to social media or send to a friend.
+        </div>
+
+        <div class="faq-item">
+            <strong>I found a bug or something isn't working. What should I do?</strong>
+            Please email us at <a href="mailto:support@mindful-dawn.com">support@mindful-dawn.com</a> with a brief description of the issue and your iPhone model / iOS version. We fix reported bugs quickly.
+        </div>
+
+        <div class="faq-item">
+            <strong>How do I request a feature or translation?</strong>
+            We welcome suggestions. Email us and we'll note your idea for a future update.
+        </div>
+    </section>
+
+    <section>
+        <h2>Privacy</h2>
+        <p>Mindful Dawn collects only anonymized analytics (app usage patterns) via Firebase Analytics to help improve the app. We do not sell data or share personal information with third parties.</p>
+        <p>Ad serving is provided by Google AdMob and follows Google's privacy policies.</p>
+    </section>
+
+</div>
+
+<footer>
+    &copy; 2025 Mindful Dawn &nbsp;·&nbsp; <a href="mailto:support@mindful-dawn.com" style="color:#8A7A6A;">support@mindful-dawn.com</a>
+</footer>
+
 </body>
 </html>
